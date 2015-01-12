@@ -1,0 +1,115 @@
+/*--------------------------------*/
+/*# sourceMappingURL=main.css.map */
+/*--------------------------------*/
+
+/*---------------------------*/
+/*Globale Settings*/
+body {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+header {
+  border-bottom: 3px groove Gray;
+	border-width: thin;
+	height: 120px;
+}
+.heading {
+	disply: inline;
+	position: relative;
+}
+h1 {
+	color: black;
+}
+section > * {
+  padding: 5px; 
+  padding-left: 100px;
+  padding-right: 10px;
+}
+/*---------------------------*/
+
+
+/*---------------------------*/
+/*Styles für Post Content*/
+.post-title {
+	margin-bottom: -20px;	
+	font-family: Helvetica;
+	font-weight: lighter;
+}
+.post-date {
+	margin-top: 10px;
+	padding-left: 100px;
+	color: orange;
+	padding-top: 10px;
+	font-family: Helvetica;
+	font-weight: lighter;
+}
+.post-content {
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+p {
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: black;
+	positon: relative;
+	padding-right: 35%;
+	line-height: 25px;
+	margin-top: 0;
+}
+/*---------------------------*/
+
+/*---------------------------*/
+/*Header Bereich*/
+#ueberschrift {
+	margin-left:  0;
+	padding-left: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  background-color: transparent;
+  position: absolute;
+	font-size: 35px;
+	font-family: georgia;
+	font-style:italic;  
+}
+/*---------------------------*/
+
+/*---------------------------*/
+/*Navigation*/
+nav {
+  positon: fixed;
+  padding-top: 30px;
+}
+nav > * {
+  height: 1200px;
+  border-left: 3px groove Gray;
+  border-width: thin;
+  float: right;
+  font-size: 15px; 
+  min-width: 250px;
+
+}
+li{
+	font-family: Helvetica;
+	font-weight: lighter;
+	text-decoration: none;
+  list-style: none;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+a{
+   text-decoration: none;
+   color: gray;
+}
+.nav-date {
+	color: orange;
+}
+/*---------------------------*/
+
+
+/*---------------------------*/
+/*Content Bereich*/
+div.post{
+	padding-top: 10px;
+	font-size: 20px;
+}
