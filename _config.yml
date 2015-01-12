@@ -1,7 +1,0 @@
-# Build settings
-markdown: redcarpet
-# Site settings
-title: Projekyll
-baseurl: /Projekyll # the subpath of your site, e.g. /blog/
-
-
